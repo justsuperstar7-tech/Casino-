@@ -1,0 +1,77 @@
+# Bot Configuration
+BOT_TOKEN=8989722696:AAE5VooDhp44rhphPB7EhjD1-gnlffgH6Nk
+BOT_USERNAME=Exits404Robot
+BOT_NAME=Exits404 Casino
+
+# Database Configuration
+DB_HOST=postgres
+DB_PORT=5432
+DB_NAME=casino_bot
+DB_USER=postgres
+DB_PASSWORD=Exits404@Casino2026
+DATABASE_URL=postgresql://postgres:Exits404@Casino2026@postgres:5432/casino_bot
+
+# Redis Configuration
+REDIS_HOST=redis
+REDIS_PORT=6379
+REDIS_PASSWORD=Exits404@Redis2026
+REDIS_DB=0
+
+# Admin Panel Configuration
+ADMIN_SECRET_KEY=Exits404@SuperSecretKey2026!@#$
+ADMIN_USERNAME=exits404admin
+ADMIN_PASSWORD=Exits404@Admin2026
+ADMIN_SESSION_EXPIRE=3600
+
+# Wallet Configuration - Updated with Real Addresses
+TON_WALLET_ADDRESS=UQBkbZv_1zIohs2AZr5FqP26dv1OnCNyK3fR9kcC4FJTkfTn
+USDT_TRC20_ADDRESS=TAU2v8nuzpYNrKvKMh1cuxUiURi8SRgyJU
+TON_API_KEY=your_ton_api_key_here
+
+# Webhook Configuration
+WEBHOOK_URL=https://your-domain.com
+WEBHOOK_PATH=/webhook
+
+# Server Configuration
+HOST=0.0.0.0
+PORT=8000
+DEBUG=false
+
+# Telegram Configuration
+FORCE_JOIN_CHANNELS=Exits404Casino
+SUPPORT_USERNAME=Exits404Support
+
+# Game Configuration
+MIN_BET_AMOUNT=1
+MAX_BET_AMOUNT=100000
+SLOT_MACHINE_COST=10
+
+# Referral Configuration
+REFERRAL_BONUS=100
+REFERRAL_REWARD_PERCENT=5.0
+
+# Bonus Configuration
+DAILY_BONUS=50
+WELCOME_BONUS=100
+
+# Rate Limiting
+RATE_LIMIT_MESSAGES=30
+RATE_LIMIT_PERIOD=60
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FILE=logs/bot.log
+
+# Maintenance
+MAINTENANCE_MODE=false
+
+# Group and Channel IDs
+GROUP_ID=-1004469784594
+CHANNEL_ID=@Exits404Casino
+WINS_CHANNEL_ID=-1004408601128
+WINS_CHANNEL_LINK=https://t.me/Exits404CasinoWins
+
+# Referral Rewards (in USDT)
+REFERRAL_1ST_REWARD=5
+REFERRAL_2ND_REWARD=3
+REFERRAL_3RD_REWARD=1
